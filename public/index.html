@@ -155,12 +155,12 @@ layout: false
 ]
 
 .right-column[
-It's a type of **balck-box testing**. The internal program structure is NOT considered.
+  It's a type of **balck-box testing**. The internal program structure is NOT considered.
 
-It tests a slice of **functionality** of the whole system. It does NOT test a specific method or function.
+  It tests a slice of **functionality** of the whole system. It does NOT test a specific method or function.
 
-According to Microsoft: 
-> its the second most cost-effective method for identifying and fixing defects in software, after code reviews.
+  According to Microsoft: 
+  > its the second most cost-effective method for identifying and fixing defects in software, after code reviews.
 ]
 
 ---
@@ -174,12 +174,12 @@ According to Microsoft:
 
 .right-column[
 Identify scenarios and flows in the application, for example:
-      
-- Login/Logout
+        
+  - Login/Logout
 
-- Create Account
+  - Create Account
 
-- Forgot Password
+  - Forgot Password
 
 Write assertions, for example:
 
@@ -194,7 +194,6 @@ it('render login button', async () => {
   expect(html).toBe('LOGIN')
 })
 ```
-
 ]
 
 ---
@@ -206,11 +205,11 @@ it('render login button', async () => {
 ]
 
 .right-column[
-Whenever developers change or modify their software, even a small tweak can have unexpected consequences.
+  Whenever developers change or modify their software, even a small tweak can have unexpected consequences.
 
-Regression testing is testing existing software applications to make sure that a change or addition hasn’t broken any existing functionality.
+  Regression testing is testing existing software applications to make sure that a change or addition hasn’t broken any existing functionality.
 
-In most cases repeating a suite of tests each time an update is made is too time-consuming and complicated to consider.
+  In most cases repeating a suite of tests each time an update is made is too time-consuming and complicated to consider.
 ]
 
 ---
@@ -223,26 +222,26 @@ In most cases repeating a suite of tests each time an update is made is too time
 ]
 
 .right-column[
-Use Jenkins to run all tests on every code change that was made inside the frontend folder.
+  Use [Jenkins]() to run all tests on every code change that was made inside the frontend folder.
 
-Use slack channel to notify developers when tests fail or pass.
+  Use [Slack]() to notify developers when tests fail or pass.
 
-Include functional tests efforts in estimates during sprint planning.
+  Include functional tests efforts in estimates during sprint planning.
 ]
 
 ---
 
 ## Tools and libraries
 
-Jest
+### Jest
 - Jest is a JavaScript Testing Framework 
 - https://jestjs.io/
 
-Puppeteer
+### Puppeteer
 - Puppeteer is a Node library which provides a high-level API to control Chrome
 - https://github.com/GoogleChrome/puppeteer
 
-Docker Puppeteer
+### Docker Puppeteer
 - Docker image for puppeteer
 - https://github.com/buildkite/docker-puppeteer
 
