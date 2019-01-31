@@ -8,7 +8,7 @@ self.__precacheManifest = [
     "url": "/presentation-functional-tests-frontend/static/js/main.3ea6e50e.chunk.js"
   },
   {
-    "revision": "cfdc2166fd656c983aef4c20bff0c1ac",
+    "revision": "f1d212663a021b342bb4d775e1248694",
     "url": "/presentation-functional-tests-frontend/index.html"
   }
 ];
